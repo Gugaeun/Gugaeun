@@ -28,6 +28,7 @@ Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 �
 | [mini-game-hub](https://github.com/Gugaeun/mini-game-hub) | 미니게임 10개 아케이드 사이트 · [Demo](https://gugaeun.github.io/mini-game-hub/) | `React` `Vite` `Canvas` |
 | [Korea_Movie_Review](https://github.com/Gugaeun/Korea_Movie_Review) | 리뷰 기반 한국 영화 추천 서비스 (팀) | `FastAPI` `scikit-learn` `React` `Docker` |
 | [golmok-hankki](https://github.com/Gugaeun/golmok-hankki) | 동네 음식점 검색·지도 서비스 (크롤링) | `Flask` `SQLite` `BeautifulSoup` `Naver Maps` |
+| [Vision_ai](https://github.com/Gugaeun/Vision_ai) | Vision AI 실습 겸 미니 프로젝트 8종 (탐지·자세 분류·이상 탐지) | `YOLO` `Grounding DINO` `XGBoost` `PatchCore` |
 
 ---
 
@@ -40,6 +41,7 @@ Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 �
 | ☕ Java | [Java_2026](https://github.com/Gugaeun/Java_2026) | 기본 문법, 객체지향, 문제 풀이 |
 | 🌐 Web | [Web-language](https://github.com/Gugaeun/Web-language) | HTML/CSS/JavaScript UI 구현 |
 | 👁 Computer Vision | [ComputerVision](https://github.com/Gugaeun/ComputerVision) | 영상 처리 기초, YOLOv3 탐지·SORT 추적, MediaPipe, ViT, 3D 비전 |
+| 🔬 Vision AI | [Vision_ai](https://github.com/Gugaeun/Vision_ai) | 객체 탐지(YOLO·Grounding DINO), 자세 분류, 이상 탐지 실습 겸 미니 프로젝트 모음 |
 | 💻 C++ | [C-language](https://github.com/Gugaeun/C-language) | 기초 문법 및 자료구조 |
 | 🌱 Spring *(이전 학기)* | [Java_Spring_Study](https://github.com/Gugaeun/Java_Spring_Study) | Spring 기반 백엔드 구조, REST API |
 | 🗄 SQL *(이전 학기)* | [Sql_Study](https://github.com/Gugaeun/Sql_Study) | 데이터 조회 및 분석 |
