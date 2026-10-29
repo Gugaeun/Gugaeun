@@ -28,6 +28,7 @@ Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 �
 | [mini-game-hub](https://github.com/Gugaeun/mini-game-hub) | 미니게임 10개 아케이드 사이트 · [Demo](https://gugaeun.github.io/mini-game-hub/) | `React` `Vite` `Canvas` |
 | [Korea_Movie_Review](https://github.com/Gugaeun/Korea_Movie_Review) | 리뷰 기반 한국 영화 추천 서비스 (팀) | `FastAPI` `scikit-learn` `React` `Docker` |
 | [golmok-hankki](https://github.com/Gugaeun/golmok-hankki) | 동네 음식점 검색·지도 서비스 (크롤링) | `Flask` `SQLite` `BeautifulSoup` `Naver Maps` |
+| [Korean_Travel](https://github.com/Gugaeun/Korean_Travel) | 산책 코스 지도 + 기상청 날씨 여행 웹 | `JavaScript` `Kakao Maps` `Python` |
 | [Vision_ai](https://github.com/Gugaeun/Vision_ai) | Vision AI 실습 겸 미니 프로젝트 8종 (탐지·자세 분류·이상 탐지) | `YOLO` `Grounding DINO` `XGBoost` `PatchCore` |
 
 ---
