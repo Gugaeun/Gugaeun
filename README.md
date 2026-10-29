@@ -19,15 +19,15 @@ Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 �
 
 ## 🗂 Portfolio
 
-개인 프로젝트 모음 → **[Gugaeun/Portfolio](https://github.com/Gugaeun/Portfolio)**
+프로젝트 모음 → **[Gugaeun/Portfolio](https://github.com/Gugaeun/Portfolio)**
 
-| 프로젝트 | 소개 |
-|---|---|
-| [Ticketing](https://github.com/Gugaeun/Ticketing) | 선착순 티켓 예매 서비스 · 동시성 제어 비교 |
-| [PM25](https://github.com/Gugaeun/PM25) | 서울 초미세먼지 예측 |
-| [mini-game-hub](https://github.com/Gugaeun/mini-game-hub) | 미니게임 웹페이지 |
-| [Korea_Movie_Review](https://github.com/Gugaeun/Korea_Movie_Review) | 영화 리뷰 감성 분석 · 평점 예측 |
-| [golmok-hankki](https://github.com/Gugaeun/golmok-hankki) | 크롤링 프로젝트 |
+| 프로젝트 | 소개 | 주요 기술 |
+|---|---|---|
+| [Ticketing](https://github.com/Gugaeun/Ticketing) | 선착순 티켓 예매 서비스, 락 방식별 동시성 성능 비교 | `Spring Boot` `JPA` `JWT` `Oracle` `k6` |
+| [PM25](https://github.com/Gugaeun/PM25) | 서울 PM2.5 1~24시간 예측, ONNX 변환·API 서빙 | `PyTorch` `LightGBM` `ONNX` `FastAPI` |
+| [mini-game-hub](https://github.com/Gugaeun/mini-game-hub) | 미니게임 10개 아케이드 사이트 · [Demo](https://gugaeun.github.io/mini-game-hub/) | `React` `Vite` `Canvas` |
+| [Korea_Movie_Review](https://github.com/Gugaeun/Korea_Movie_Review) | 리뷰 기반 한국 영화 추천 서비스 (팀) | `FastAPI` `scikit-learn` `React` `Docker` |
+| [golmok-hankki](https://github.com/Gugaeun/golmok-hankki) | 동네 음식점 검색·지도 서비스 (크롤링) | `Flask` `SQLite` `BeautifulSoup` `Naver Maps` |
 
 ---
 
