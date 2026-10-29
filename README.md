@@ -17,6 +17,20 @@ Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 �
 
 ---
 
+## 🗂 Portfolio
+
+개인 프로젝트 모음 → **[Gugaeun/Portfolio](https://github.com/Gugaeun/Portfolio)**
+
+| 프로젝트 | 소개 |
+|---|---|
+| [Ticketing](https://github.com/Gugaeun/Ticketing) | 선착순 티켓 예매 서비스 · 동시성 제어 비교 |
+| [PM25](https://github.com/Gugaeun/PM25) | 서울 초미세먼지 예측 |
+| [mini-game-hub](https://github.com/Gugaeun/mini-game-hub) | 미니게임 웹페이지 |
+| [Korea_Movie_Review](https://github.com/Gugaeun/Korea_Movie_Review) | 영화 리뷰 감성 분석 · 평점 예측 |
+| [golmok-hankki](https://github.com/Gugaeun/golmok-hankki) | 크롤링 프로젝트 |
+
+---
+
 ## 📚 학습 저장소
 
 | 분야 | 저장소 | 내용 |
