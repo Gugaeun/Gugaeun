@@ -6,24 +6,15 @@ Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 �
 
 ## 🚀 Featured Project
 
-학습 → ONNX 변환 → API 서빙까지 한 사이클을 이미지 분류에서 시작해 시계열 예측으로 확장했습니다.
-
-### 1. [CNN Multi-Framework](https://github.com/Gugaeun/cnn-multi-framework) — 이미지 분류
-동일한 CNN 이미지 분류 모델을 **NumPy(밑바닥 구현) → PyTorch → Keras**로 각각 구현하고 비교한 뒤, **ONNX로 변환**하여 프레임워크 간 상호운용성을 검증하고, **Flask/FastAPI로 서빙 API**까지 구축한 프로젝트입니다.
-
-- 세 프레임워크의 코드 스타일·학습 시간·정확도를 실측하여 비교
-- PyTorch → ONNX 변환 후 출력값 차이 1.53e-05(사실상 동일), 추론 속도 3.6배 향상 확인
-- Flask / FastAPI 두 방식으로 실제 서빙 API 구현 및 curl 테스트 완료
-
-`Python` `NumPy` `PyTorch` `TensorFlow/Keras` `ONNX` `FastAPI` `Flask`
-
-### 2. [PM25](https://github.com/Gugaeun/PM25) — 서울 PM2.5 시계열 예측 *(1번에서 발전)*
-위 프로젝트의 **학습 → ONNX → 서빙 파이프라인을 시계열 도메인에 적용**해, 서울 25개 구 평균 PM2.5를 **1~24시간 뒤까지** 예측합니다. 공공데이터 정제부터 baseline 대비 모델 비교, 기상 변수 효과 검증, 고농도 실패 분석, 실시간 예측 API까지 다뤘습니다.
+### [PM25](https://github.com/Gugaeun/PM25) — 서울 PM2.5 시계열 예측
+서울 25개 구 평균 PM2.5를 **1~24시간 뒤까지** 예측하는 프로젝트입니다. 공공데이터 정제부터 baseline 대비 모델 비교, 기상 변수 효과 검증, 고농도 실패 분석, **ONNX 변환과 실시간 예측 API 서빙**까지 한 사이클을 다뤘습니다.
 
 - naive·persistence·ARIMA·LightGBM·LSTM·1D-CNN을 같은 조건으로 비교, 기상 변수를 넣은 모델이 naive 대비 오차 약 38% 감소
-- 분기별(walk-forward)·장기 데이터(2018~2026)로 결과 재검증, 고농도 구간 예측 실패 원인과 개선 시도까지 기록
+- 분기별(walk-forward)·장기 데이터(2018~2026)로 결과를 재검증하고, 고농도 구간 예측 실패 원인과 개선 시도까지 기록
 
 `Python` `PyTorch` `LightGBM` `statsmodels` `ONNX` `FastAPI`
+
+> 이전 실험 [cnn-multi-framework](https://github.com/Gugaeun/cnn-multi-framework)(같은 CNN을 NumPy·PyTorch·Keras로 구현하고 ONNX 변환·서빙)에서 쓴 **학습 → ONNX → 서빙 파이프라인을 시계열 도메인으로 확장**한 프로젝트입니다.
 
 ---
 
