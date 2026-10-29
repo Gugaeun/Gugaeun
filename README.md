@@ -29,6 +29,7 @@ Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 �
 | [PM25](https://github.com/Gugaeun/PM25) | 서울 PM2.5 1~24시간 예측, ONNX 변환·API 서빙 | `PyTorch` `LightGBM` `ONNX` `FastAPI` |
 | [mini-game-hub](https://github.com/Gugaeun/mini-game-hub) | 미니게임 10개 아케이드 사이트 · [Demo](https://gugaeun.github.io/mini-game-hub/) | `React` `Vite` `Canvas` |
 | [Vision_ai](https://github.com/Gugaeun/Vision_ai) | Vision AI 실습 겸 미니 프로젝트 8종 (탐지·자세 분류·이상 탐지) | `YOLO` `Grounding DINO` `XGBoost` `PatchCore` |
+| [EuroSAT-Classification](https://github.com/Gugaeun/EuroSAT-Classification) | 위성 이미지 분류, ANN·DNN·CNN × Keras·PyTorch 비교 | `Keras` `PyTorch` `CNN` |
 | [golmok-hankki](https://github.com/Gugaeun/golmok-hankki) | 동네 음식점 검색·지도 서비스 (크롤링) | `Flask` `SQLite` `BeautifulSoup` `Naver Maps` |
 
 ### 👥 팀 프로젝트
