@@ -4,6 +4,20 @@ Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 �
 
 ---
 
+## 🛠 Tech Stack
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+
+---
+
 ## 🚀 Featured Project
 
 ### [PM25](https://github.com/Gugaeun/PM25) — 서울 PM2.5 시계열 예측
@@ -58,20 +72,6 @@ Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 �
 | 💻 C++ | [C-language](https://github.com/Gugaeun/C-language) | 기초 문법 및 자료구조 |
 | 🌱 Spring *(이전 학기)* | [Java_Spring_Study](https://github.com/Gugaeun/Java_Spring_Study) | Spring 기반 백엔드 구조, REST API |
 | 🗄 SQL *(이전 학기)* | [Sql_Study](https://github.com/Gugaeun/Sql_Study) | 데이터 조회 및 분석 |
-
----
-
-## 🛠 Tech Stack
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 ---
 
