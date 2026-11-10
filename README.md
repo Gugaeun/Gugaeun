@@ -7,29 +7,27 @@ Java·Python·JavaScript로 웹 백엔드, 프론트엔드, 안드로이드, Com
 
 ## 🛠 Tech Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+| 분야 | 기술 |
+|---|---|
+| **Backend** | ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white) ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white) ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white) ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
+| **Frontend** | ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) |
+| **Mobile** | ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white) |
+| **Database** | ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square&logo=oracle&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white) |
+| **AI / Vision** | ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white) |
+| **Tools** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) |
 
 ---
 
 ## 🚀 Featured Project
 
-### [PM25](https://github.com/Gugaeun/PM25) — 서울 PM2.5 시계열 예측
-서울 25개 구 평균 PM2.5를 **1~24시간 뒤까지** 예측하는 프로젝트입니다. 공공데이터 정제부터 baseline 대비 모델 비교, 기상 변수 효과 검증, 고농도 실패 분석, **ONNX 변환과 실시간 예측 API 서빙**까지 한 사이클을 다뤘습니다.
+### [Ticketing](https://github.com/Gugaeun/Ticketing) — 공연 티켓 선착순 예매 서비스
+인기 공연의 티켓 오픈 순간, 동시에 몰리는 요청에도 **초과 판매나 중복 예매 없이** 처리하는 예매 서비스입니다. 동시성 문제를 일부러 재현하고, 락 방식을 바꿔 가며 **수치로 비교**하는 데 초점을 맞췄습니다.
 
-- naive·persistence·ARIMA·LightGBM·LSTM·1D-CNN을 같은 조건으로 비교, 기상 변수를 넣은 모델이 naive 대비 오차 약 38% 감소
-- 분기별(walk-forward)·장기 데이터(2018~2026)로 결과를 재검증하고, 고농도 구간 예측 실패 원인과 개선 시도까지 기록
+- 재고 100장에 요청 1,000건을 동시에 보내면, 락이 없을 때 재고보다 **765~900건 더 많이 판매**됐고(H2 기준 4회 측정), 비관적 락·낙관적 락(조건부 UPDATE + 재시도)은 매번 **초과 판매 0건**
+- Oracle 19c에서 k6로 HTTP 부하를 걸어 확인: 락 없음은 **실패율 0%인데도 247건이 더 팔렸고**, 두 락 방식은 0건. 속도는 방식당 1회 측정이라 우열의 결론으로 쓰지 않고 한계까지 기록
+- 같은 회차 중복 예매는 DB 유니크 제약으로 막고, 예매 알림은 비동기 이벤트로 분리
 
-`Python` `PyTorch` `LightGBM` `statsmodels` `ONNX` `FastAPI`
-
-> 이전 실험 [cnn-multi-framework](https://github.com/Gugaeun/cnn-multi-framework)(같은 CNN을 NumPy·PyTorch·Keras로 구현하고 ONNX 변환·서빙)에서 쓴 **학습 → ONNX → 서빙 파이프라인을 시계열 도메인으로 확장**한 프로젝트입니다.
+`Java 17` `Spring Boot` `JPA` `Spring Security` `JWT` `Oracle` `k6`
 
 ---
 
@@ -97,4 +95,4 @@ Java·Python·JavaScript로 웹 백엔드, 프론트엔드, 안드로이드, Com
 
 ## 📮 Contact
 
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:여기에_본인_이메일_입력)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:yms07050@gmail.com)
