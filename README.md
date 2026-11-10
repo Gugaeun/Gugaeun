@@ -78,10 +78,12 @@ Java·Python·JavaScript로 웹 백엔드, 프론트엔드, 안드로이드, Com
 ## 📊 Language Stats
 
 ![Language Stats](https://github.com/Gugaeun/github-stats/blob/generated/languages.svg#gh-light-mode-only)
+![Language Stats](https://github.com/Gugaeun/github-stats/blob/generated/languages.svg#gh-dark-mode-only)
 
 > 매일 자동으로 갱신됩니다 ([github-stats](https://github.com/Gugaeun/github-stats) Action 기반). 2021년 이전 학기 저장소(Sql_Study, Java_Spring_Study, Java_Study)는 벤더 라이브러리 코드가 많이 섞여있어 통계에서 제외했습니다.
 
 ![GitHub Stats Overview](https://github.com/Gugaeun/github-stats/blob/generated/overview.svg#gh-light-mode-only)
+![GitHub Stats Overview](https://github.com/Gugaeun/github-stats/blob/generated/overview.svg#gh-dark-mode-only)
 
 ---
 
