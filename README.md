@@ -1,6 +1,7 @@
 # 안녕하세요, 구가은입니다 👋
 
-Python, Java, C++, 웹(HTML/CSS/JS), SQL, OpenCV까지 — 다양한 언어와 분야를 두루 다뤄보며 기초를 쌓아왔고, 최근에는 이를 바탕으로 **Computer Vision과 딥러닝 프레임워크(NumPy/PyTorch/TensorFlow)**, 그리고 **백엔드 API 서빙(Flask/FastAPI)** 쪽으로 전문성을 넓혀가고 있습니다.
+저는 "된다"에서 멈추지 않고 "왜 되는지, 얼마나 되는지"를 확인하는 개발자입니다. 
+Java·Python·JavaScript로 웹 백엔드, 프론트엔드, 안드로이드, Computer Vision까지 만들어 보며 폭을 넓혀 왔습니다.
 
 ---
 
