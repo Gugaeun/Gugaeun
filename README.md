@@ -85,14 +85,6 @@ Java·Python·JavaScript로 웹 백엔드, 프론트엔드, 안드로이드, Com
 
 ---
 
-## 🎯 현재 목표
-
-- Computer Vision 심화 학습 (YOLO 기반 객체 탐지)
-- 여러 ML 프레임워크를 이해하고 상황에 맞게 선택할 수 있는 역량 키우기
-- 백엔드(API 서빙)와 모델 개발을 함께 다룰 수 있는 개발자로 성장
-
----
-
 ## 📮 Contact
 
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:yms07050@gmail.com)
