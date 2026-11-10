@@ -53,7 +53,7 @@ Java·Python·JavaScript로 웹 백엔드, 프론트엔드, 안드로이드, Com
 | 프로젝트 | 소개 | 주요 기술 |
 |---|---|---|
 | [LPR_System](https://github.com/Gugaeun/LPR_System) | 번호판 인식 주차 관리 시스템 | `YOLOv11` `PaddleOCR` `PyQt6` `SQLite` |
-| [Korea_Movie_Review](https://github.com/Gugaeun/Korea_Movie_Review) | 리뷰 기반 한국 영화 추천 서비스 | `FastAPI` `scikit-learn` `React` `Docker` |
+| [Korea_Movie_Review](https://github.com/Gugaeun/Korea_Movie_Review) | 한국 영화 리뷰 감성 분석 · 평점 예측 기반 영화 추천 서비스 | `FastAPI` `scikit-learn` `React` `Docker` |
 | [Korean_Travel](https://github.com/Gugaeun/Korean_Travel) | 산책 코스 지도 + 기상청 날씨 여행 웹 | `JavaScript` `Kakao Maps` `Python` |
 | [WithPet](https://github.com/Gugaeun/WithPet) | 반려견 동반 가능 장소 검색 앱 (입장 조건 검색) | `Android` `Java` `PHP` `MySQL` |
 
